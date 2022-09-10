@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+@font-face {
+    font-family: 'IBMPlexSansKR-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+  background-color: #D9E5FF;
+}
+
+ul li {
+  list-style: none;
+  padding: 5px;
+  border: 1px solid #7F8BA5;
+  margin: 5px;
+  background-color: rgba(181, 193, 219, 5);
+  text-align: center;
+}
+
+li a {
+  text-decoration: none;
+  color: #ffffff;
+
+
+}
+
+li {
+  font-family: 'Space Mono', monospace;
+  font-size: 12px;
+}
+
+
+li:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.main {
+  border: 1px solid #7F8BA5;
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px;
+  background-color: rgba(255, 255, 255, 0.2);
+  font-family: 'Space Mono', monospace;
+
+
+}
+
+.me {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px;
+  border: 1px solid #7F8BA5;
+  background-color: rgba(255, 255, 255, 0.2);
+  font-family: 'IBMPlexSansKR-Regular';
+  font-size: 14px;
+
+}
+
+.me-sub {
+  margin-top: 30px;
+}
+
+.menu {
+  position: fixed;
+  margin-left: 200px;
+}
+
+.favorite {
+  border: 1px solid #7F8BA5;
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px;
+  font-size: 16px;
+  font-family: 'IBMPlexSansKR-Regular';
+  background-color: rgba(255, 255, 255, 0.2);
+
+
+}
+
+.u {
+  margin-top: 100px;
+
+}
+
+.contact {
+  border: 1px solid #7F8BA5;
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px;
+  font-family: 'Space Mono', monospace;
+  font-size: 14px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+#cat {
+  width: 150px;
+}
